@@ -4,11 +4,11 @@ class StocksController < ApplicationController
   def index
     respond_with Stock.all
   end
-    
+  
   def create
     respond_with Stock.create(stock_params)
   end
-  def destroy1
+  def destroy
    respond_with Stock.destroy(params[:id])
   end
   
