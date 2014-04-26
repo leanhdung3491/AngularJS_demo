@@ -4,7 +4,7 @@ class StocksController < ApplicationController
   def index
     respond_with Stock.all
   end
-  --coment dasfsdfsdf
+  --77777777777777777777777777777777777
   
   def create
     respond_with Stock.create(stock_params)
