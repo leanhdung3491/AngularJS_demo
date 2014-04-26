@@ -1,7 +1,7 @@
 class StocksController < ApplicationController
   respond_to :json
   
-  def index1
+  def index
     respond_with Stock.all
   end
   --hghjbhljhjk.h.jh.kljkl;
