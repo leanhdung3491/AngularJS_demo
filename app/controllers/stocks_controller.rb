@@ -8,7 +8,7 @@ class StocksController < ApplicationController
   def create
     respond_with Stock.create(stock_params)
   end
-
+//dfdfdfdfdfdfdfdfdf
   def destroy
    respond_with Stock.destroy(params[:id])
   end
