@@ -4,6 +4,7 @@ class StocksController < ApplicationController
   def index
     respond_with Stock.all
   end
+  --hghjbhljhjk.h.jh.kljkl;
   
   def create
     respond_with Stock.create(stock_params)
